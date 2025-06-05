@@ -2,6 +2,7 @@ import './App.css'
 import BlurText from './components/BlurText';
 import ShinyText from './components/ShinyText'
 import emailjs from "emailjs-com";
+import TextBox from './components/TextBox';
 
 function App() {
   
@@ -27,27 +28,27 @@ function App() {
   }
 
   return (
-    <>
+    <div className="main-container">
       <h1><BlurText
-      text="Labas fainuole"
+      text="Labas, fainuole"
       delay={100}
       animateBy="letters"
       direction="top"
       onAnimationComplete={handleAnimationComplete}
       />
       </h1>
-      {/* <h1><ShinyText text="Labas fainuole" disabled={false} speed={3}/></h1> */}
+      <TextBox />
       <div className="card">
         <button onClick={sendEmail}>
           {/* count is {count} */}
           <ShinyText text="Taip" disabled={false} speed={2} />
         </button>
-        <button>
+        <button className="nope-button">
           <p className="bigtext">Nope</p> 
           <div className="smalltext">(labai prasau nespausk)</div>
         </button>
       </div>
-    </>
+    </div>
   )
 }
 
