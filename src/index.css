@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #141414;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -35,6 +35,15 @@ h1 {
   line-height: 1.1;
 }
 
+button .smalltext {
+  font-size: 0.7rem;
+}
+
+button .bigtext {
+  padding: 0;
+  margin: 0;
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -45,9 +54,15 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  height: 6rem;
+  width: 8rem;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  justify-content: center;
+  align-items: center;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #ff64d0;
 }
 button:focus,
 button:focus-visible {
