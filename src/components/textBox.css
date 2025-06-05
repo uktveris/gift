@@ -1,6 +1,6 @@
 .slide-up-box {
     position: fixed;
-    bottom: -200px;
+    bottom: -400px;
     left: 50%;
     transform: translateX(-50%);
     background-color: black;
@@ -9,9 +9,10 @@
     transition: all 0.5s ease-out;
     border: 1px solid #ff64d0;
     max-width: 400px;
+    width: 80%;
     color: white;
 }
 
 .slide-up-box.visible {
-    bottom: 40%;
+    bottom: 50%;
 }

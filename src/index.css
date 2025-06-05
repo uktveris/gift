@@ -19,6 +19,7 @@
   gap: 8rem;
   justify-content: center;
   align-items: center;
+  height: 90vh;
 }
 
 a {
@@ -39,8 +40,10 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 2rem;
   line-height: 1.1;
+  justify-self: flex-start;
+  padding-bottom: 6rem;
 }
 
 button .smalltext {
@@ -79,6 +82,14 @@ button:focus-visible {
 
 .nope-button {
   color: white;
+}
+
+.yes-button.disabled {
+  opacity: 0.5;
+}
+
+.toast-progress {
+  background: #ff64d0;
 }
 
 @media (prefers-color-scheme: light) {

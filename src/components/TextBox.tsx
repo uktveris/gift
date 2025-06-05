@@ -11,7 +11,7 @@ export default function TextBox() {
     
     return (
         <div className={`slide-up-box ${show ? "visible" : ""}`}>
-            <p>Ar noretum eiti su manimi i pasimatyma <b>2025-06-20 (penktadieni) 18:00</b>? Gali pasirinkti bet kuria opcija is apacioje esanciu pasirinkimu👏.</p>
+            <p>Ar noretum eiti su manimi i pasimatyma <b>2025-06-20 (penktadieni) 18:00</b> (Jei taip, atvaziuosiu taves pasiimti nuo namu)? Gali pasirinkti bet kuria opcija is apacioje esanciu pasirinkimu👏</p>
         </div>
     )
 }
