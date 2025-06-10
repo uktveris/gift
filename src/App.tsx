@@ -56,8 +56,8 @@ function App() {
       "service_t1kyjxs",
       "template_5yajfdr", 
       {
-      to_email: "speakserslanguageapp@gmail.com, marius.uktveris@gmail.com",
-      from_name: "Kazkoks appsas",
+      to_email: "Smiltealisauskaite1@gmail.com, marius.uktveris@gmail.com",
+      from_name: "laba ;)",
       message: "date'as patvirtintas, jau gali ruostis",
       },
       "_tMxsmsddi8MdvfGM"
@@ -92,7 +92,7 @@ function App() {
         </button>
         <button className="nope-button" onClick={() => showToastSad()}>
           <p className="bigtext">Nope</p> 
-          <div className="smalltext">(labai prasau nespausk)</div>
+          <div className="smalltext">(labai prasau nespausk :|)</div>
         </button>
       </div>
       <ToastContainer theme="dark" />
